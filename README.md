@@ -21,8 +21,8 @@
  Panoptic driving perception involves a combination of traffic object detection, drivable area segmentation, and lane detection. Existing methods generally leverage multi-task learning networks built upon anchor-based detectors to deal with it, so will be sen-sitive to anchor design. We propose YOLOPX, to the best of our knowledge, the first anchor-free multi-task learning network ca-pable of addressing panoptic driving perception in real-time. Compared to prior works, we make several vital improvements. First, we replace YOLO’s detection head with a decoupled one to eliminate anchors. This anchor-free manner improves the network performance, simplifies the training process, and enhances the network's extensibility. Then, we combine multi-scale high-resolution features and self-attention for better lane detection. In addition to the above architecture optimization, we also propose a novel training strategy to improve training efficiency without anchors and additional inference cost. Our method achieves state-of-the-art (SOTA) performance on the challenging BDD100K dataset: It achieves 93.7 % recall and 83.3% mAP50 on traffic object detection, 93.2% mIoU on drivable area segmentation, and 88.6% accuracy and 27.2% IoU on lane detection. Moreover, YOLOPX has faster inference speed compared to the lightweight network YOLOP. Thus, YOLOPX is a powerful solu-tion for panoptic driving perception problems. The code is available at https://github.com/jiaoZ7688/YOLOPX.
 
 ## Results
-We used the BDD100K as our datasets,and experiments are run on **NVIDIA TESLA V100**.
-model : trained on the BDD100k train set and test on the BDD100k val set .
+* We used the BDD100K as our datasets,and experiments are run on **NVIDIA TESLA V100**.
+* model : trained on the BDD100k train set and test on the BDD100k val set .
   
 ### ----------------------------
 ### video visualization Results
