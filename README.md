@@ -26,9 +26,13 @@ We used the BDD100K as our datasets,and experiments are run on **NVIDIA TESLA V1
 ### video visualization Results
 model : trained on the BDD100k train set and test on the BDD100k val set .
 
-<td><img src=demo/2.gif/></td>
+Note: The raw video comes from [YOLOP](https://github.com/hustvl/YOLOP/tree/main/inference/videos)
+The results of our experiments are as follows:
 <td><img src=demo/3.gif/></td>
-Note: The video is from the Internet
+
+Note: The raw video comes from [HybridNets](https://github.com/datvuthanh/HybridNets/tree/main/demo/video/)
+The results of our experiments are as follows:
+<td><img src=demo/2.gif/></td>
 
 ### ----------------------------
 ### image visualization Results
