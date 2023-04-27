@@ -52,7 +52,7 @@ In terms of real-time, we compare the inference speed (excluding data pre-proces
 |:--------------------:|:------------:|:----------:|:-----------:|:-----------:|
 |       `YOLOP`        |  CSPDarknet  |  **7.9M**  |     39      |     √      |
 |     `HybridNets`     | EfficientNet |    12.8M   |     17      |     √      |
-|   `YOLOPX`    |    ELANNet   |    32.9M   |   **47**    |   **×**    |
+|   **`YOLOPX`**    |    ELANNet   |    32.9M   |   **47**    |   **×**    |
 
 
 ### Traffic Object Detection Result
@@ -136,5 +136,5 @@ python demo.py  --source demo/example.jpg
 
 ## License
 
-YOLOPv3 is released under the [MIT Licence](LICENSE).
+YOLOPX is released under the [MIT Licence](LICENSE).
 
