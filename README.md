@@ -21,21 +21,24 @@
  Panoptic driving perception involves a combination of traffic object detection, drivable area segmentation, and lane detection. Existing methods generally leverage multi-task learning networks built upon anchor-based detectors to deal with it, so will be sen-sitive to anchor design. We propose YOLOPX, to the best of our knowledge, the first anchor-free multi-task learning network ca-pable of addressing panoptic driving perception in real-time. Compared to prior works, we make several vital improvements. First, we replace YOLO’s detection head with a decoupled one to eliminate anchors. This anchor-free manner improves the network performance, simplifies the training process, and enhances the network's extensibility. Then, we combine multi-scale high-resolution features and self-attention for better lane detection. In addition to the above architecture optimization, we also propose a novel training strategy to improve training efficiency without anchors and additional inference cost. Our method achieves state-of-the-art (SOTA) performance on the challenging BDD100K dataset: It achieves 93.7 % recall and 83.3% mAP50 on traffic object detection, 93.2% mIoU on drivable area segmentation, and 88.6% accuracy and 27.2% IoU on lane detection. Moreover, YOLOPX has faster inference speed compared to the lightweight network YOLOP. Thus, YOLOPX is a powerful solu-tion for panoptic driving perception problems. The code is available at https://github.com/jiaoZ7688/YOLOPX.
 
 ## Results
-* We used the BDD100K as our datasets,and experiments are run on **NVIDIA TESLA V100**.
+* We use the BDD100K as our datasets,and experiments are run on **NVIDIA TESLA V100**.
 * model : trained on the BDD100k train set and test on the BDD100k val set .
   
 ### ----------------------------
 ### video visualization Results
 
-* Note: The raw video comes from [YOLOP](https://github.com/hustvl/YOLOP/tree/main/inference/videos) and [HybridNets](https://github.com/datvuthanh/HybridNets/tree/main/demo/video/)
-* The results of our experiments are as follows:
-<p><img src=demo/3.gif/><img src=demo/2.gif/></p>
+* **Our network has excellent robustness and generalization!!!!!**
+* **Even on new datasets ([KITTI](https://www.cvlibs.net/datasets/kitti/)) with different image sizes and application scenarios, our network performs well. This is helpful for related research in SLAM. **
 
-* Note: The raw video comes from [KITTI](https://www.cvlibs.net/datasets/kitti/)
+
+* Note: The raw videos comes from [KITTI](https://www.cvlibs.net/datasets/kitti/)
 * The results of our experiments are as follows:
 <p><img src=demo/2_0.gif/><img src=demo/2_1.gif/><img src=demo/2_2.gif/><img src=demo/2_3.gif/></p>
   
-  
+* Note: The raw videos comes from [YOLOP](https://github.com/hustvl/YOLOP/tree/main/inference/videos) and [HybridNets](https://github.com/datvuthanh/HybridNets/tree/main/demo/video/)
+* The results of our experiments are as follows:
+<p><img src=demo/3.gif/><img src=demo/2.gif/></p>
+ 
 ### ----------------------------
 ### image visualization Results
 * The results on the BDD100k val set.
