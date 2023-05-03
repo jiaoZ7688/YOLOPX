@@ -28,7 +28,7 @@
 ### video visualization Results
 
 * **Our network has excellent robustness and generalization!!!!!**
-* **Even on new datasets ([KITTI](https://www.cvlibs.net/datasets/kitti/)) with different image sizes and application scenarios, our network performs well. This is helpful for related research in SLAM. **
+* **Even on new datasets ([KITTI](https://www.cvlibs.net/datasets/kitti/)) with different image sizes and application scenarios, our network performs well. This is helpful for related research in SLAM.**
 
 
 * Note: The raw videos comes from [KITTI](https://www.cvlibs.net/datasets/kitti/)
