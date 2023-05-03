@@ -29,11 +29,13 @@
 
 * Note: The raw video comes from [YOLOP](https://github.com/hustvl/YOLOP/tree/main/inference/videos) and [HybridNets](https://github.com/datvuthanh/HybridNets/tree/main/demo/video/)
 * The results of our experiments are as follows:
-  
-<p align="center">
-   <img alt="1" src="demo/3.gif" width="45%"> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="2" src="demo/2.gif" width="45%"> 
-</p>
+<p><img src=demo/3.gif/><img src=demo/2.gif/></p>
 
+* Note: The raw video comes from [KITTI](https://www.cvlibs.net/datasets/kitti/)
+* The results of our experiments are as follows:
+<p><img src=demo/2_0.gif/><img src=demo/2_1.gif/><img src=demo/2_2.gif/><img src=demo/2_3.gif/></p>
+  
+  
 ### ----------------------------
 ### image visualization Results
 * The results on the BDD100k val set.
