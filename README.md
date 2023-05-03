@@ -34,6 +34,13 @@
 
 * Note: The raw videos comes from [KITTI](https://www.cvlibs.net/datasets/kitti/)
 * The results of our experiments are as follows:
+<div align = 'None'>
+  <img src="demo/2_0.gif" width="100%" />
+</div>
+<div align = 'None'>
+  <img src="demo/2_1.gif" width="100%" />
+</div>
+
 <p><img src=demo/2_0.gif/><img src=demo/2_1.gif/><img src=demo/2_2.gif/><img src=demo/2_3.gif/></p>
   
 * Note: The raw videos comes from [YOLOP](https://github.com/hustvl/YOLOP/tree/main/inference/videos) and [HybridNets](https://github.com/datvuthanh/HybridNets/tree/main/demo/video/)
