@@ -29,7 +29,7 @@
 
 * Note: The raw video comes from [YOLOP](https://github.com/hustvl/YOLOP/tree/main/inference/videos) and [HybridNets](https://github.com/datvuthanh/HybridNets/tree/main/demo/video/)
 * The results of our experiments are as follows:
-<td><img src=demo/3.gif/><img src=demo/2.gif/></td>
+<img src=demo/3.gif/><img src=demo/2.gif/>
 
 ### ----------------------------
 ### image visualization Results
