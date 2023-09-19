@@ -187,9 +187,8 @@ pip install -r requirements.txt
 ```
 
 ## Pre-trained Model
-<!-- You can get the pre-trained model from <a href="https://pan.baidu.com/s/19wj4XOHReY8sGgCh787mOw">here</a>.
-Extraction code：jbty -->
-coming soon...
+You can get the pre-trained model from <a href="https://pan.baidu.com/s/1k7_M8vrgQCnlY-FlaA0g6Q">here</a>.
+Extraction code：fvuc
 
 ## Dataset
 For BDD100K: [imgs](https://bdd-data.berkeley.edu/), [det_annot](https://drive.google.com/file/d/1d5osZ83rLwda7mfT3zdgljDiQO3f9B5M/view), [da_seg_annot](https://drive.google.com/file/d/1yNYLtZ5GVscx7RzpOd8hS7Mh7Rs6l3Z3/view), [ll_seg_annot](https://drive.google.com/file/d/1BPsyAjikEM9fqsVNMIygvdVVPrmK1ot-/view)
