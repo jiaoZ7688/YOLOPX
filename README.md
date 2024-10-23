@@ -11,12 +11,14 @@
 
 ## Paper
 
-* The paper is under submission...
+* If you find our work useful, please cite it: “Zhan J, Luo Y, Guo C, et al. YOLOPX: Anchor-free multi-task learning network for panoptic driving perception[J]. Pattern Recognition, 2024, 148: 110152.”
 
 ## News
 * `2023-4-27`:  We've uploaded the experiment results along with some code, and the full code will be released soon!
 
 * `2023-9-15`:  We have uploaded part of the code and the full code will be released soon!
+
+* `2024-10-24`:  We have released the full code!
 
 ## Introduction
 
@@ -220,7 +222,10 @@ We recommend the dataset directory structure to be the following:
 Update the your dataset path in the `./lib/config/default.py`.
 
 ## Training
-coming soon......
+
+```shell
+python tools/train.py
+```
 
 ## Evaluation
 
