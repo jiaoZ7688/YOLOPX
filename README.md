@@ -11,7 +11,7 @@
 
 ## Paper
 
-* If you find our work useful, please cite this paper: “  Zhan J, Luo Y, Guo C, et al. YOLOPX: Anchor-free multi-task learning network for panoptic driving perception[J]. Pattern Recognition, 2024, 148: 110152.  ”
+* If you find our work useful, please cite this paper: “  Zhan J, Luo Y, Guo C, et al. YOLOPX: Anchor-free multi-task learning network for panoptic driving perception[J]. Pattern Recognition, 2024, 148: 110152.  ” [paper](https://www.sciencedirect.com/science/article/abs/pii/S003132032300849X?fr=RR-2&ref=pdf_download&rr=8abb0351d9898616)
 
 ## News
 * `2023-4-27`:  We've uploaded the experiment results along with some code, and the full code will be released soon!
