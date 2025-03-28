@@ -42,8 +42,8 @@ def detect(cfg,opt):
 
     logger = None
     device = select_device(logger,opt.device)
-    if not os.path.exists(opt.save_dir):  # output dir
-        os.makedirs(opt.save_dir)  # make new dir
+        
+    os.makedirs(opt.save_dir, exist_ok=True)  # 直接创建，如果已存在则忽略
     
     half = device.type != 'cpu'  # half precision only supported on CUDA
 
