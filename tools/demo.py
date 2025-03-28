@@ -42,9 +42,9 @@ def detect(cfg,opt):
 
     logger = None
     device = select_device(logger,opt.device)
-    if os.path.exists(opt.save_dir):  # output dir
-        shutil.rmtree(opt.save_dir)  # delete dir
-    os.makedirs(opt.save_dir)  # make new dir
+    if not os.path.exists(opt.save_dir):  # output dir
+        os.makedirs(opt.save_dir)  # make new dir
+    
     half = device.type != 'cpu'  # half precision only supported on CUDA
 
     # Load model
